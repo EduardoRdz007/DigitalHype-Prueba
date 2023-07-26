@@ -9,6 +9,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  
 }
 
 .content {
@@ -22,6 +24,7 @@ body {
   animation-duration: 2s;
   animation-name: slidein;
   
+  margin-top: -40%;
 }
 
 @keyframes slidein {
