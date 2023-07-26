@@ -121,7 +121,7 @@ button:disabled {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
-  text-align: center; /* Centrar el título */
+  text-align: center;
   color: #21b374; 
 }
 
@@ -132,19 +132,19 @@ button:disabled {
 .card-subtitle {
   font-size: 16px;
   margin-bottom: 8px;
-  color: #333; /* Color de texto más oscuro */
+  color: #333; 
 }
 
 .card-subtitle span {
-  font-weight: bold; /* Texto en negrita */
+  font-weight: bold;
 }
 
 .card-subtitle:first-child {
-  margin-top: 0; /* Eliminar margen superior del primer subtítulo */
+  margin-top: 0; 
 }
 
 .error {
-  color: #ff6666; /* Color rojo claro para el mensaje de error */
+  color: #ff6666;
   font-size: 14px;
   margin-top: 8px;
 }
