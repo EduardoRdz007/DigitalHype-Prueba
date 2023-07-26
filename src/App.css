@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background: radial-gradient(#4ac0ae, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  animation-duration: 2s;
+  animation-name: slidein;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+
+  animation-duration: 4s;
+  animation-name: slidein-sub;
+}
+
+@keyframes slidein-sub {
+  from {
+    margin-left: 220%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+input {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10%;
+  background-color: #4affb1;
+  color: #000000;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #000000;
+  cursor: not-allowed;
+  color: white
+}
+
+.decrypted-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+.decrypted-message {
+  color: #666;
+}
+
+.card {
+  background-color: #1e7b92;
+  border: 1px solid #0c0b0b;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(184, 53, 53, 0.2); 
+  animation-duration: 1s;
+  animation-name: slidein-card;
+}
+
+@keyframes slidein-card {
+  from {
+    margin-left: 220%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center; /* Centrar el título */
+  color: #21b374; 
+}
+
+.card-content {
+  margin-left: 16px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333; /* Color de texto más oscuro */
+}
+
+.card-subtitle span {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.card-subtitle:first-child {
+  margin-top: 0; /* Eliminar margen superior del primer subtítulo */
+}
+
+.error {
+  color: #ff6666; /* Color rojo claro para el mensaje de error */
+  font-size: 14px;
+  margin-top: 8px;
+}
